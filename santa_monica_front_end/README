@@ -1,0 +1,3 @@
+
+docker run --name smfe -d -p 8080:80 slarribeau/sm_front_end
+docker build -t slarribeau/sm_front_end .
